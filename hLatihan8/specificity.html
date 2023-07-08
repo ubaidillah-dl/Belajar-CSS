@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Specificity</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Specificity</h1>
+		<table border="0" cellspacing="0" cellpadding="5">
+			<tr>
+				<th>Inline</th>
+				<th>Id</th>
+				<th>Class</th>
+				<th>Element</th>
+			</tr>
+			<tr class="nilai">
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+		</table>
+		<hr>
+		<h5>HTML</h5>
+		<img src="Assets/Html.JPG">
+		<h5>CSS</h5>
+		<img src="Assets/Css.JPG">
+		<h5>Nilai dari ul#sarapan li</h5>
+		<table border="0" cellspacing="0" cellpadding="5">
+			<tr>
+				<th>Inline</th>
+				<th>Id</th>
+				<th>Class</th>
+				<th>Element</th>
+			</tr>
+			<tr class="nilai">
+				<td>0</td>
+				<td>1</td>
+				<td>0</td>
+				<td>2</td>
+			</tr>
+		</table>
+		<h5>Nilai dari .favorit</h5>
+		<table border="0" cellspacing="0" cellpadding="5">
+			<tr>
+				<th>Inline</th>
+				<th>Id</th>
+				<th>Class</th>
+				<th>Element</th>
+			</tr>
+			<tr class="nilai">
+				<td>0</td>
+				<td>0</td>
+				<td>1</td>
+				<td>0</td>
+			</tr>
+		</table>
+		<p>Karna nilai specifity dari ul#sarapan li lebih besar / lebih berat maka warna dari Nasi Goreng tetap berwarna hijau</p>
+		<img src="Assets/output1.jpg">
+		<hr>
+		<h5>CSS</h5>
+		<h5>Nilai dari ul#sarapan li</h5>
+		<table border="0" cellspacing="0" cellpadding="5">
+			<tr>
+				<th>Inline</th>
+				<th>Id</th>
+				<th>Class</th>
+				<th>Element</th>
+			</tr>
+			<tr class="nilai">
+				<td>0</td>
+				<td>1</td>
+				<td>0</td>
+				<td>2</td>
+			</tr>
+		</table>
+		<h5>Nilai dari ul#sarapan li.favorit</h5>
+		<table border="0" cellspacing="0" cellpadding="5">
+			<tr>
+				<th>Inline</th>
+				<th>Id</th>
+				<th>Class</th>
+				<th>Element</th>
+			</tr>
+			<tr class="nilai">
+				<td>0</td>
+				<td>1</td>
+				<td>1</td>
+				<td>2</td>
+			</tr>
+		</table>
+		<img src="Assets/css2.jpg">
+		<p>Karna nilai specifity dari ul#sarapan li.favorit lebih besar / lebih berat maka warna dari Nasi Goreng akan berwarna merah</p>
+		<ul id="sarapan">
+			<li class="favorit">Nasi Goreng</li>
+			<li>Mie Goreng</li>
+			<li>Bubur Ayam</li>
+			<li>Nasi Ayam</li>
+		</ul>
+
+	</body>
+</html>

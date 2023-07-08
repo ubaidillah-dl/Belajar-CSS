@@ -1,0 +1,23 @@
+h1{
+	/*ukuran*/
+	font-size: 50px;
+	/*warna bisa pake rgb (rgb(0,0,0), hexa (#7350D4), nama warna*/
+	color: blue;
+	/*jenis huruf, uppercase, capitalize, lowercase*/
+	text-transform: lowercase;
+}
+p{
+	/*text-align, left, right, center, justify*/
+	text-align: justify;
+	/*text masuk ke dalam, px atau %*/
+	text-indent: 100px;
+	/*text decoration, underline, line-trhough*/
+	text-decoration: line-through;
+	/*spasi antar huruf, normal, px*/
+	letter-spacing: 0px;
+	/*spasi antar kata, normal, px*/
+	word-spacing: 6px;
+}
+a{
+	text-decoration: overline;
+}

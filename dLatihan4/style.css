@@ -1,0 +1,13 @@
+body{
+	/*background dengan warna*/
+	background-color: lightblue;
+	/*background dengan gambar*/
+	background-image: url(Gambar/Watermark.png);
+	/*background diulang pada sumbu tertentu, repeat-x, repeat-y*/
+	background-repeat: no-repeat;
+	/*posisi background,top/center/bottom, left, right (left, center, right, left), x% y%, x-pos y-pos*/
+	background-position:  top center;
+
+	/*shorthand atau singkatan, background : color url() position repeat*/
+	/*background: lightblue url(Gambar/Sampul1.png) top center no-repeat;*/
+}

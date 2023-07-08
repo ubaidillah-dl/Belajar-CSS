@@ -1,0 +1,27 @@
+h1{
+	font-family: verdana;
+}
+h2{
+	/*px, %, em*/
+	font-size: 100px;
+}
+h3{
+	/*lighter, normal, 100-900, bold, border*/
+	font-weight: bold;
+}
+h4{
+	/*normal, small-caps*/
+	font-variant: small-caps;
+}
+h5{
+	/*normal, italic, olique*/
+	font-style: italic;
+}
+h6{
+	/*normal, px, em*/
+	line-height: 10px;
+}
+p{
+	/*font:  style, variant, weight, size, line-height, family*/
+	font: italic normal bold 16px verdana ;
+}

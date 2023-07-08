@@ -1,0 +1,30 @@
+/*keadaan link saat belum diklik atau default*/
+.hello:link{
+	color: red;
+}
+/*keadaan link saat kursor berada diatas link*/
+.hello:hover{
+	font-size: 20px;
+	color: yellowgreen;
+	font-family: monospace;
+}
+/*keadaan link ketika diklik*/
+.hello:active{
+	font-style: italic;
+}
+/*keadaan link ketika sudah dikunjungi atau diklik*/
+.hello:visited{
+	color: orange;
+}
+/*untuk elemen yang memiliki anak anak*/
+/*first-child, last-child, nth-child(0), nth-child(0n), nth-child(0n-0), nth-child(0n+0), nth-child(even) untuk genap, nth-child(odd) untuk ganjil*/
+li:nth-child(even) a{
+	color: red;
+}
+li:nth-child(odd) a:hover{
+	color: green;
+}
+/*untuk elemen yang tidak memiliki anak seperti paragraf, first-of-type, last-of-type*/
+p:last-of-type{
+	color: blue;
+}
